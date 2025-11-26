@@ -6,6 +6,7 @@ export type ConfigTab =
   | "agents"
   | "organizations"
   | "indexing"
+  | "aidaptiv"
   | "settings"
   | "help";
 
@@ -32,6 +33,7 @@ export const CONFIG_ROUTES = {
   AGENTS: buildConfigRoute("agents"),
   ORGANIZATIONS: buildConfigRoute("organizations"),
   INDEXING: buildConfigRoute("indexing"),
+  AIDAPTIV: buildConfigRoute("aidaptiv"),
   SETTINGS: buildConfigRoute("settings"),
   HELP: buildConfigRoute("help"),
 } as const;

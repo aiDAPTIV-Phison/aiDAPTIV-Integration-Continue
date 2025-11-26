@@ -395,7 +395,9 @@ export function Chat() {
       >
         {highlights}
         {history
-          .filter((item) => item.message.role !== "system")
+          .filter(
+            (item) => item.message.role !== "system" && !item.isHiddenFromChat,
+          )
           .map((item, index: number) => (
             <div
               key={item.message.id}

@@ -1,0 +1,25 @@
+name: Local Assistant
+version: 1.0.0
+schema: v1
+models:
+  - name: inference
+    provider: openai
+    model: Meta-Llama-3.1-8B-Instruct-Q4_K_M
+    apiBase: "http://127.0.0.1:13141/v1/"
+    roles:
+      - chat
+    defaultCompletionOptions:
+      temperature: 0.7
+      topP: 0.8
+      topK: 20
+
+
+context:
+  - provider: code
+  - provider: docs
+  - provider: diff
+  - provider: terminal
+  - provider: problems
+  - provider: codebase
+  - provider: folder_all
+
