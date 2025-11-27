@@ -38,7 +38,7 @@ You'll need to obtain two essential components from the `aiDAPTIV_Files` directo
 
 **a. Phison Continue Extension**
 
-- Location: `aiDAPTIV_Files\Installer`
+- Location: `https://phison-software-bucket.s3.ap-northeast-1.amazonaws.com/aiDAPTIV_Application/Continue/continue-1.2.9.vsix`
 - File: `continue-1.2.9.vsix`
 
 **b. Demo Example Files**
