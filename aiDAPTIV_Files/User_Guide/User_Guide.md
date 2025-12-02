@@ -142,9 +142,17 @@ Once the kvcache build is complete, you're ready to experience the power of Phis
 
 **a. Use the Chat Window**
 
-- Navigate to the **Continue** chat panel, and select the example code folder
-  ![toggle_folder](./img/toggle_folder.jpg)
-  ![select_folder](./img/select_folder.jpg)
+1. **Select Mode and Model**
+   - Navigate to the **Continue** chat panel
+   - Select **Chat** as the mode
+   - Select **Inference** as the model
+     ![select_role](./img/select_role.jpg)
+
+2. **Select Target Folder**
+   - Type `@{folder}` in the chat input box
+   - Choose the example code folder from the dropdown list
+     ![toggle_folder](./img/toggle_folder.jpg)
+     ![select_folder](./img/select_folder.jpg)
 
 - In the input box, type your question using the following format:
 
