@@ -169,26 +169,28 @@ Once the kvcache build is complete, you're ready to experience the power of Phis
 
   ![user_prompt](./img/user_prompt.jpg)
 
+     > **📌 Important:** When initiating a new chatroom, the **first prompt must include a folder tag** (e.g., `@greedy_snake`). Subsequent prompts within the same chatroom **do not require the folder tag**, as the system retains the selected folder context automatically.
+
 **b. Try the Golden Questions**
 
-For your **first question**, we highly recommend using one of the questions from the `golden_QA.txt` file to experience the incredible speed of Phison aiDAPTIV+:
+For your **first question**, we highly recommend using the questions 1 from the `golden_QA.txt` file to experience the incredible speed of Phison aiDAPTIV+:
 
 **Question 1:**
 
 ```
-@greedy_snake briefly explain where can i change the game speed? it's too fast
+briefly explain where can i change the game speed? it's too fast
 ```
 
 **Question 2:**
 
 ```
-@greedy_snake briefly explain where can i set the background? i don't like the current color
+briefly explain where can i set the background? i don't like the current color
 ```
 
 **Question 3:**
 
 ```
-@greedy_snake where can i set the title Emoji? I have my own Emoji
+where can i set the title Emoji? I have my own Emoji
 ```
 
 **c. Submit and Wait for Response**
@@ -208,15 +210,15 @@ For your **first question**, we highly recommend using one of the questions from
 
 ### 2.5 Limitations and Important Notes
 
-⚠️ **Chat Window History Limitation**
+⚠️ **Folder Tag Requirement**
 
-When using `@{folder}` with your prompt, please ensure that the chat window does **NOT** contain any "other" historical records. The chat window should **ONLY** contain that specific prompt.
+When initiating a new chatroom, the **first prompt must include a folder tag** (e.g., `@greedy_snake`) to establish the project context. Subsequent prompts within the same chatroom **do not require the folder tag**, as the system retains the selected folder context automatically.
 
 **Best Practice:**
 
-- Open a **new chat window** before asking questions with `@{folder}`
-- Or **clear the current chat history** before submitting your `@{folder}` query
-- This ensures the AI has the cleanest context for your specific question
+- Open a **new chat window** for each distinct project inquiry
+- Ensure the **first prompt** includes the appropriate `@{folder}` tag
+- Subsequent questions within the same chatroom may be submitted without the folder tag
 
 ---
 
