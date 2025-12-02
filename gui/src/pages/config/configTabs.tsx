@@ -9,8 +9,10 @@ import {
   WrenchScrewdriverIcon,
 } from "@heroicons/react/24/outline";
 import { BotIcon } from "../../components/svg/BotIcon";
+import { KvCacheIcon } from "../../components/svg/KvCacheIcon";
 import { ConfigSection } from "./components/ConfigSection";
 import { AgentsSection } from "./sections/AgentsSection";
+import { AiDaptivSettingsSection } from "./sections/AiDaptivSettingsSection";
 import { HelpSection } from "./sections/HelpSection";
 import { IndexingSettingsSection } from "./sections/IndexingSettingsSection";
 import { ModelsSection } from "./sections/ModelsSection";
@@ -128,6 +130,21 @@ export const topTabSections: TabSection[] = [
         ),
         icon: (
           <CircleStackIcon className="xs:h-4 xs:w-4 h-3 w-3 flex-shrink-0" />
+        ),
+      },
+      {
+        id: "aidaptiv",
+        label: "aiDAPTIV+",
+        component: (
+          <ConfigSection>
+            <AiDaptivSettingsSection />
+          </ConfigSection>
+        ),
+        icon: (
+          <KvCacheIcon
+            className="xs:h-4 xs:w-4 h-3 w-3 flex-shrink-0"
+            size={16}
+          />
         ),
       },
     ],

@@ -197,6 +197,7 @@ export function handleStreamingToolCallUpdates(
 // The proper fix is adding a UUID to all chat messages, but this is the temp workaround.
 export type ChatHistoryItemWithMessageId = ChatHistoryItem & {
   message: ChatMessage & { id: string };
+  isHiddenFromChat?: boolean; // Flag to hide messages from chat UI (e.g., KvCache build messages)
 };
 
 type SessionState = {

@@ -46,5 +46,8 @@ export const streamThunkWrapper = createAsyncThunk<
     };
 
     posthog.capture("gui_stream_error", errorData);
+
+    // Re-throw the error so that .unwrap() can catch it
+    throw e;
   }
 });
