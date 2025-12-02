@@ -143,6 +143,7 @@ Once the kvcache build is complete, you're ready to experience the power of Phis
 **a. Use the Chat Window**
 
 1. **Select Mode and Model**
+
    - Navigate to the **Continue** chat panel
    - Select **Chat** as the mode
    - Select **Inference** as the model
@@ -204,6 +205,18 @@ For your **first question**, we highly recommend using one of the questions from
 - **Be specific** in your questions for better answers
 - **Ask about code structure**, functionality, configuration, or best practices
 - **Follow up** with additional questions to dive deeper into topics
+
+### 2.5 Limitations and Important Notes
+
+⚠️ **Chat Window History Limitation**
+
+When using `@{folder}` with your prompt, please ensure that the chat window does **NOT** contain any "other" historical records. The chat window should **ONLY** contain that specific prompt.
+
+**Best Practice:**
+
+- Open a **new chat window** before asking questions with `@{folder}`
+- Or **clear the current chat history** before submitting your `@{folder}` query
+- This ensures the AI has the cleanest context for your specific question
 
 ---
 
